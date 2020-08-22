@@ -1,3 +1,10 @@
+xubuntu-default-settings (20.10.0-sg) UNRELEASED; urgency=medium
+
+  * debian/control:
+    - Removed fonts-noto-hinted dependency
+
+ -- Stanislav Grinkov <barlog.the.infernal@gmail.com>  Mon, 22 August 2020 20:20:00 +0600
+
 xubuntu-default-settings (20.10.0) UNRELEASED; urgency=medium
 
   * etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
