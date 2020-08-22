@@ -1,2 +1,15 @@
 debian/files
 etc/xdg/xdg-xubuntu/Thunar/uca.xml
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/tmp/
+debian/xubuntu-default-settings/
+debian/xubuntu-live-settings/
+debian/xubuntu-default-settings.debhelper.log
+debian/xubuntu-default-settings.postinst.debhelper
+debian/xubuntu-default-settings.postrm.debhelper
+debian/xubuntu-default-settings.preinst.debhelper
+debian/xubuntu-default-settings.prerm.debhelper
+debian/xubuntu-default-settings.substvars
+debian/xubuntu-live-settings.debhelper.log
+debian/xubuntu-live-settings.substvars
