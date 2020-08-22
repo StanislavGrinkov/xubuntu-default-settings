@@ -13,7 +13,6 @@ Package: xubuntu-default-settings
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: dbus-user-session,
-         fonts-noto-hinted,
          lightdm-gtk-greeter (>= 2.0.1-1),
          systemd (>= 231-1~),
          x11-common (>= 1:7.6+7ubuntu2),
@@ -26,6 +25,7 @@ Breaks: upstart (<< 1.13.2-0ubuntu28~)
 Provides: lightdm-gtk-greeter-config
 Description: default settings for the Xubuntu desktop
  This package contains the default settings used by Xubuntu.
+ Modified by Stansilav Grinkov. Removed fonts-noto-hinted package from depends
 
 Package: xubuntu-live-settings
 Architecture: all
